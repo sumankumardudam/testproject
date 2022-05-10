@@ -6,6 +6,7 @@ options {
 	buildDiscarder(logRotator(numToKeepStr: '5'))
 }
         stages
+	
         {
             stage ('mystage1') 
             {
