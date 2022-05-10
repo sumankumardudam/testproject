@@ -9,7 +9,7 @@ options {
         {
             stage ('mystage1') 
             {
-                steps { echo "I from Jenkins file" }
+                steps { echo "I from DEV BRANCH Jenkins file" }
              }
                 }
                 }
