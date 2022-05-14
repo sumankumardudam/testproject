@@ -1,7 +1,7 @@
 
 pipeline
 {
-agent any
+	agent {label 'AOP'}
 options {
 	buildDiscarder(logRotator(numToKeepStr: '5'))
 }
