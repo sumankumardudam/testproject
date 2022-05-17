@@ -36,7 +36,7 @@
                   <artifactId>sonar-maven-plugin</artifactId>
                   <version>3.2</version>    
            </dependency>    
-                           
+    </dependencies>
 <profiles>
 <profile>
 <id>sonar</id>
@@ -52,7 +52,7 @@ http://34.230.76.206:9000/
 </profile>
 </profiles>
                    
-    </dependencies>
+  
 
     <!-- This blob of configuration tells Maven to make the jar executable. You can run it with:
     mvn clean package
