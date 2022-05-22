@@ -1,8 +1,8 @@
 pipeline
 {
 	agent {label 'AOP'}
-options {
-	buildDiscarder(logRotator(numToKeepStr: '5'))
+		options {
+			buildDiscarder(logRotator(numToKeepStr: '5'))
 }
         stages
 	
