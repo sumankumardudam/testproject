@@ -1,4 +1,4 @@
-pipeline
+/* pipeline
 {
 	agent {label 'AOP'}
 		options {
@@ -20,8 +20,21 @@ pipeline
         }
 	}
 	
-}
+} */
 
+
+pipeline
+{
+agent any
+	stages {
+
+		stage ('Stage1') 
+			{
+			  steps{echo 'I M IN Master'}	
+			}
+ 
+       	}
+}
 
 
 
